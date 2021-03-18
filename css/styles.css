@@ -1,0 +1,184 @@
+body{
+  font-family: 'Montserrat';
+  /*font-family: 'Ubuntu', sans-serif;*/
+  margin: 0;
+}
+h1{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.30rem;
+  color: #000;
+}
+p{
+  font-family: 'Montserrat';
+  font-size: 0.67rem;
+  font-weight: 300;
+  color: #f9f3f3
+
+}
+/* Header */
+.header-contact{
+  text-align: right;
+  background-color:  #ff7b54;
+  padding-right: 20px;
+}
+.whatapp-img{
+  background-color: #075e54;
+  color: #128c7e;
+
+}
+.header-data{
+  background-color: #075e54;
+  padding-left: 3px;
+  font-size: 1rem;
+  font-weight: bold;
+color: #fff;
+}
+.Costumes-logo{
+  padding-right: 3px;
+}
+.d-block{
+
+  text-align: center;
+}
+/* logo-section */
+.Navbackgro{
+  background-color: #ff7b54;
+}
+
+#logo-sec{
+  background-color: #ff7b54;
+  margin: 0;
+  padding: 3% 7%
+}
+.iconcolor{
+  background-color: #28a745;
+}
+.title-text{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  margin: 0 auto;
+  width: 600px;
+  font-size: 3.5rem;
+  color: white;
+}
+.lead{
+  padding-top: 75%;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #f9f3f3;
+}
+.logoimg{
+  border-radius: 100%;
+  position: absolute;
+  right: 4px;
+  text-align: center;
+  width: 70%;
+
+}
+.logodiv{
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+}
+/*Products Section*/
+#products{
+  padding: 7% 14%;
+  background-color: #ffb26b
+}
+.or-heading{
+  font-family: 'Montserrat';
+  font-weight: 300;
+  padding-top: 2%;
+  margin: 0;
+
+}
+.ornaments-det{
+  padding: 2% 1.5%;
+  color: #34b7f1;
+}
+.product-det{
+  padding-bottom: 3%;
+}
+.Card-details{
+  background-color: grey;
+  border: 3px;
+}
+.dress-link{
+  font-family: 'Montserrat';
+  font-size: 0.75rem;
+  font-weight: bold;
+  color:   #161d6f
+}
+/* Contact Details */
+#contact-details{
+  background-color:#ffd56b;
+  padding: 7% 14%;
+}
+.map-heading{
+  text-align: center;
+  color: #161d6f;;
+  font-style: italic;
+}
+#contact-me{
+  background-color:#ffd56b;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.contact-Heading{
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #161d6f;
+  padding-bottom: 3%;
+}
+
+.footer{
+  background-color: #939b62;
+  position: relative;
+  margin: 0;
+}
+
+.footer-name{
+  padding-left: 20%;
+  font-family: 'Montserrat';
+  font-size: 0.67rem;
+  color: grey;
+  }
+  .footer-link{
+    padding-left: 5%;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 700;
+    color: #34b7f1;
+  }
+.Manu-costumes-img{
+  position:absolute;
+  right: 20px;
+  bottom: 5px;
+  margin: 0;
+  width: 150px;
+
+}
+
+/* Dress Material Colors */
+#dress-material{
+  background-color: #f5c0c0;
+  padding: 7% 14%;
+}
