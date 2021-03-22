@@ -31,21 +31,55 @@ p{
 }
 /* Header */
 .header-contact{
-  text-align: right;
   background-color:  #ff7b54;
-  padding-right: 20px;
+  padding-top: 3px;
+  padding-right: 3px;
 }
 .whatapp-img{
-  background-color: #075e54;
-  color: #128c7e;
-
-}
+  position: relative;
+  left: 87%;
+  width: 13%;
+  background-color: #25D366;
+  }
+  .whatsapp-img{
+    position: relative;
+    left: 44%;
+    width: 13%;
+    background-color: #25D366;
+    margin-bottom:  4px;
+    }
+    @media (max-width: 900px){
+      .whatsapp-img{
+        position: relative;
+        left: 36%;
+        width: 30%;
+        background-color: #25D366;
+        margin-bottom:  4px;
+      }
+        .whatapp-img{
+          position: relative;
+          left: 36%;
+          width: 30%;
+          background-color: #25D366;
+          margin-bottom:  4px;
+        }
+    }
+    .mobno:hover{
+      color: #000;
+    }
 .header-data{
-  background-color: #075e54;
   padding-left: 3px;
   font-size: 1rem;
   font-weight: bold;
-color: #fff;
+  color: #fff;
+}
+.header-data:hover{
+  color: #000;
+}
+.mobno{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
 }
 .costumes-logo{
   padding-right:3px;
