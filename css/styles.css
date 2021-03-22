@@ -47,8 +47,14 @@ p{
   font-weight: bold;
 color: #fff;
 }
-.Costumes-logo{
-  padding-right: 3px;
+.costumes-logo{
+  padding-right:3px;
+}
+@media (max-width: 900px) {
+  .costumes-logo{
+    padding: 0;
+  }
+
 }
 .d-block{
 
@@ -76,8 +82,7 @@ color: #fff;
   color: white;
 }
 .lead{
-  padding-top: 75%;
-  font-family: 'Montserrat';
+    font-family: 'Montserrat';
   font-weight: 500;
   font-style: italic;
   font-size: 1.5rem;
@@ -85,11 +90,9 @@ color: #fff;
 }
 .logoimg{
   border-radius: 100%;
-  position: absolute;
-  right: 4px;
   text-align: center;
   width: 70%;
-
+margin: 0;
 }
 .logodiv{
   position: relative;
@@ -130,9 +133,22 @@ color: #fff;
   background-color:#ffd56b;
   padding: 7% 14%;
 }
+#map{
+  text-align: center;
+}
+.map-link{
+  width: 800px;
+  height:600px;
+}
+@media(max-width: 800px){
+  .map-link{
+    width: 400px;
+    height:300px;
+  }
+}
 .map-heading{
   text-align: center;
-  color: #161d6f;;
+  color: #161d6f;
   font-style: italic;
 }
 #contact-me{
